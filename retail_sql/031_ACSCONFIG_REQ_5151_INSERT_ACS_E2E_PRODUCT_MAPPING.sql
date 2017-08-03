@@ -1,3 +1,0 @@
-
-Insert into ACSCONFIG.BHA_BUNDLE   (STEP_MIN) Values   (256111);
-COMMIT;
