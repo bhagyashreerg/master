@@ -5,9 +5,6 @@
     <groupId>org.springframework</groupId>
     <artifactId>test</artifactId>
     <packaging>jar</packaging>
-	 <configuration>
-        <outputDirectory>C:/Program Files (x86)/Jenkins/workspace/try/src</outputDirectory>
-      </configuration>
     <version>0.1.0</version>
 
     <build>
