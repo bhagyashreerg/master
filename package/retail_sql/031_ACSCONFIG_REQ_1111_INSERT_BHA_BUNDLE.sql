@@ -1,2 +1,0 @@
-Insert into ACSCONFIG.BHA_BUNDLE   (STEP_MAX) Values   (11010111);
-COMMIT;
