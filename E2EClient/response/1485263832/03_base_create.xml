@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header/>
+<soapenv:Body>
+<m:assetComponentResponse xmlns:m="http://webservice">
+<m:return>
+<java:Header xmlns:java="java:xml_soapadapter">
+<java:StatusCode>1</java:StatusCode>
+<java:StatusDescription>KO</java:StatusDescription>
+<java:ErrorCode>Business Event Data Conversions getProductMapping</java:ErrorCode>
+<java:ErrorDescription>Product wih key "6001-100-NONE-NONE-NOVALUE-NOVALUE-500-101-NONE-NONE" not found in product mapping table</java:ErrorDescription>
+</java:Header>
+<java:Body xmlns:java="java:xml_soapadapter"/>
+</m:return>
+</m:assetComponentResponse>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,63 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://webservice" xmlns:m1="java:xml_soapadapter">
+  <soapenv:Body>
+<accountCreate>
+      <AccountCreateIN>
+        <m1:BillAccountCode>SW_ACCT_AUTO_XXXX</m1:BillAccountCode>
+        <m1:CustomerCode>SW_CUST_AUTO_XXXX</m1:CustomerCode>
+        <m1:BillStartDate>SW_PVT_XXX</m1:BillStartDate>
+        <m1:BillingAccount>
+          <m1:BillStatusChangeReas>0</m1:BillStatusChangeReas>
+          <m1:BillStatusCode>100</m1:BillStatusCode>
+          <m1:CurrencyCode>EUR</m1:CurrencyCode>
+          <m1:Language>ENU</m1:Language>
+          <m1:OrgCode>500</m1:OrgCode>
+          <m1:TaxType>100</m1:TaxType>
+          <m1:AccountType>Prepaid</m1:AccountType>
+          <m1:CreditClass>202</m1:CreditClass>
+          <m1:CreditLimit>0</m1:CreditLimit>
+          <m1:AutoRefillThreshold>5</m1:AutoRefillThreshold>
+          <m1:AutoRefillAmount>5</m1:AutoRefillAmount>
+	<m1:MediaType>102</m1:MediaType>
+      <m1:InvoiceMail>vin@acc.com</m1:InvoiceMail>
+        </m1:BillingAccount>
+        <m1:BillingProfile>
+          <m1:BillFrequency>100</m1:BillFrequency>
+          <m1:BillType>100</m1:BillType>
+          <m1:MediaType>100</m1:MediaType>
+          <m1:PaymentMethod>103</m1:PaymentMethod>
+	<m1:DetailedInvoice>N</m1:DetailedInvoice>
+        </m1:BillingProfile>
+        <m1:PaymentData>
+          <m1:BankAccountNumber>12345</m1:BankAccountNumber>
+          <m1:BankAccountType>Savings</m1:BankAccountType>
+          <m1:BankBranch>ABC</m1:BankBranch>
+          <m1:BankName>ABC</m1:BankName>
+          <m1:PayerFirstName>Poste</m1:PayerFirstName>
+          <m1:PayerLastName>Italine</m1:PayerLastName>
+          <m1:PayerPersonalID>12345</m1:PayerPersonalID>
+          <m1:CreditCardExpirationDate>08/13/2018 05:01:00</m1:CreditCardExpirationDate>
+          <m1:CreditCardNumber>4012245373829209</m1:CreditCardNumber>
+          <m1:CreditCardType>ABC</m1:CreditCardType>
+          <m1:CreditCardAuthorizationFlag>True</m1:CreditCardAuthorizationFlag>
+        </m1:PaymentData>
+        <m1:Address>
+          <m1:StreetType>Belandur</m1:StreetType>
+          <m1:AddressNum>1</m1:AddressNum>
+          <m1:Address>Bangalore</m1:Address>
+          <m1:City>Bangalore</m1:City>
+          <m1:ZIP>20100</m1:ZIP>
+          <m1:State>karnataka</m1:State>
+          <m1:Country>IT</m1:Country>
+        </m1:Address>
+        <m1:Contact>
+          <m1:ContFirstName>Scarlett</m1:ContFirstName>
+          <m1:ContLastName>OHara</m1:ContLastName>
+          <m1:ContactTitle />
+          <m1:ContactPhone>9916842316</m1:ContactPhone>
+          <m1:ContactWorkPhone>32451324534</m1:ContactWorkPhone>
+          <m1:ContactEmail>sh@acc</m1:ContactEmail>
+        </m1:Contact>
+      </AccountCreateIN>
+    </accountCreate>
+ </soapenv:Body>
+</soapenv:Envelope> 

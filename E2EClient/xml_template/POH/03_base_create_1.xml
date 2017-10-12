@@ -1,0 +1,118 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://webservice" xmlns:m1="java:xml_soapadapter">
+  <soapenv:Body>
+<m:assetComponent xmlns:m="http://webservice">
+<m:AssetComponentIN>
+        <m1:OrganizationCode>500</m1:OrganizationCode>
+        <m1:CustomerCode>SW_CUST_AUTO_XXXX</m1:CustomerCode>
+        <m1:BillingAccountId>SW_ACCT_AUTO_XXXX</m1:BillingAccountId>
+        <m1:Product>
+          <m1:SOId>1</m1:SOId>
+          <m1:RootInstanceId>SW_ROOTINST_AUTO_XXXX</m1:RootInstanceId>
+          <m1:ParentInstanceId/>
+          <m1:ProductInstanceId>SW_ROOTINST_AUTO_XXXX</m1:ProductInstanceId>
+          <m1:ActionCode>Add</m1:ActionCode>
+          <m1:ActionType />
+          <m1:LineNumber />
+          <m1:ProductCatalogId>4055</m1:ProductCatalogId>       
+          <m1:ServiceId />
+          <m1:TariffId>SW_BASE_TARIFF_XXXX</m1:TariffId>
+          <m1:StartDate>SW_PVT_XXX</m1:StartDate>
+          <m1:ModifyDate />
+          <m1:EndDate></m1:EndDate>
+	 	  <m1:DisconnectionDate />
+          <m1:OrderTotal />
+          <m1:OrderCurrency />
+          <m1:DisconnectionRequested />
+          <m1:BillingCharged>N</m1:BillingCharged>
+          <m1:OrderChannel />
+          <m1:OrderTypeCode />
+          <m1:OrderSubTypeCode />
+          <m1:OrderReason />
+          <m1:UserBillingID />
+          <m1:ListOfAttributes>
+          <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>IMEI</m1:Name>
+              <m1:Value>1234567890112</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Descrizione</m1:Name>
+              <m1:Value>test 1</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Event Source</m1:Name>
+              <m1:Value>393771001103</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Promo Comportamento</m1:Name>
+              <m1:Value />
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Soglia</m1:Name>
+              <m1:Value />
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Beneficio</m1:Name>
+              <m1:Value />
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Data di Consegna</m1:Name>
+              <m1:Value>SW_DELDATE_XXX</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>DDT</m1:Name>
+              <m1:Value>2412XZS</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Order ID</m1:Name>
+              <m1:Value>124ZXC</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Codice Prodotto</m1:Name>
+              <m1:Value>232</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Marca</m1:Name>
+              <m1:Value>Nokia</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Modello</m1:Name>
+              <m1:Value>32901</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Nome Prodotto</m1:Name>
+              <m1:Value>test 1</m1:Value>
+            </m1:Attribute>
+    <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>LogisticOperator</m1:Name>
+              <m1:Value>XOD09080</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Codice Prodotto Interno</m1:Name>
+              <m1:Value>007JANMESBOND</m1:Value>
+            </m1:Attribute>
+            <m1:Attribute>
+              <m1:ActionCode>Add</m1:ActionCode>
+              <m1:Name>Nome Terminale Interno</m1:Name>
+              <m1:Value>YAYA</m1:Value>
+            </m1:Attribute>
+          </m1:ListOfAttributes>
+        </m1:Product>
+</m:AssetComponentIN>
+</m:assetComponent>
+ </soapenv:Body>
+</soapenv:Envelope>
