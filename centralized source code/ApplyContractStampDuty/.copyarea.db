@@ -1,0 +1,22 @@
+ClearCase CopyAreaDB|4
+NEW_CC_BILLING\centralized source code\ApplyContractStampDuty
+2
+12
+1b:AcsSinglePlayStampPojo.java|1|16006e7e765|3f9|6d194e8b|ca3a2b2933bc4423be272fd28f8fd97f|0
+1c:ContractStampDutyThread.java|1|16006dbfef0|c35|1ddea1ac|9a36aea816924c169110e010ff3080ce|0
+1d:AcsCodConversionLinePojo.java|1|16006dbfd1e|6e2|8b8a4046|ca3a854f2aab40fd8be2d71824bfd89d|0
+1f:AcsTaxTreatmentConfigLines.java|1|16006dbfdf4|3c2|f1943654|cfc17aa6a8504824ace69c4622d994b1|0
+e:DBManager.java|1|16006e7e70a|7e70|6bb66953|b934f30ce3214917a2482f4ffaa5749f|0
+20:AcsCodConversionConfigLines.java|1|16006dbfce9|582|8779a386|cbe576e2968f45b1b78b52c95bd06853|0
+1a:ContractStampDutyPojo.java|1|16006e7e6ce|10b6|2e69c76e|dac1c48bf5284af09a4f30b12ac5619a|0
+e:Utilities.java|1|16006dc0070|12bc|f848d4a7|e221cc7d32dc4d0b8b63319fd27f64db|0
+1c:AcsTaxTreatmentLinePojo.java|1|16006dbfe27|ba9|248fe025|843328c6030b4e4aaa984c8e156b5208|0
+1f:ContractStampDutyProcessor.java|1|16006dbfebf|391c|5daa635a|2420d06c8f6e4468badfb0946a002a23|0
+20:AcsTaxOnContractConfigLines.java|1|16006dbfd89|3a2|2a5f2ca3|88bee1a8bec648c6b17c410115685d88|0
+10:DBInterface.java|1|16006dbff22|8aa|3ffaa5fb|3e78727ea3f14bd39e613bc843e61282|0
+12:LoggerManager.java|1|16006dbff94|e9b|7680e2|4f69099b313f4b76aba4a1569936193b|0
+1d:AcsTaxOnContractLinePojo.java|1|16006dbfdb9|b5b|1d65920c|a25574e1d3e34c33a8f90054896bdfb7|0
+e:AcsLabels.java|1|16006e7e66d|1413|89956b6|c635934188384d00b2f6dd40c78c09ad|0
+20:ContractStampDutyManagement.java|1|16006e7e698|6e3d|ae3552fb|4318f82ab40a4e24a2b0cd92024d1dc4|0
+14:PortalInterface.java|1|16006e7e737|570d|6aa1a2b9|de6f84a9ce634916b7a9ab48ce2b0acc|0
+12:ThreadManager.java|1|16006dc0029|b42|bccbb6ee|6ad59acc3b1f40d6b9ffab4b190f0157|0
