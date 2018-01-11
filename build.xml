@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<project default="all" basedir=".">
+
+<property name="jartoGenerate" value="${JarToGenerate}" />
+
+ <path id="compile.classpath">
+	  <fileset dir="jars_adapter">
+		<include name="**/*.jar"/>
+		
+	  </fileset>
+	</path>
+
+
+<target name="all" 
+    depends="compress,clean" />
+
+<target name="init">
+    <mkdir dir="build/classes" />
+   
+</target>
+
+<target name="compile" depends="init">
+    <javac srcdir="centralized_source_code/${JarToGenerate}" destdir="build/classes"   classpathref="compile.classpath" >
+	 
+	</javac>
+</target>
+
+<target name="compress" depends="compile">
+        <jar destfile="${jartoGenerate}.jar" basedir="build/classes"  />
+</target>
+
+
+<target name="clean">
+    <delete dir="build" />
+    
+</target>
+
+</project>
