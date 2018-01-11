@@ -4,7 +4,7 @@
 <property name="jartoGenerate" value="${JarToGenerate}" />
 
  <path id="compile.classpath">
-	  <fileset dir="jars_adapter">
+	  <fileset dir="centralized_source_code/jars_adapter">
 		<include name="**/*.jar"/>
 		
 	  </fileset>
